@@ -416,17 +416,25 @@
     }
 
     .coming-card p { color: var(--muted); margin: 0; }
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: 0.9fr 1.1fr;
-      gap: 1rem;
-      align-items: start;
+    
+    .contact-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:2rem;
+      align-items:start;
     }
 
-    .contact-card {
-      padding: 1.25rem;
-      background: linear-gradient(180deg, rgba(18, 21, 39, 0.94), rgba(10, 12, 23, 0.98));
+   .contact-card {
+     padding:1.25rem;
+     background:linear-gradient(
+      180deg,
+       rgba(18,21,39,.94),
+       rgba(10,12,23,.98)
+     );
+     height:100%;
+   }
+    .contact-grid > .contact-card:last-child{
+      grid-column:2;
     }
 
     .contact-card span {
