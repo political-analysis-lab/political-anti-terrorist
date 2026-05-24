@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://political-analysis-lab.github.io/political-anti-terrorist/sitemap.xml
