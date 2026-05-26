@@ -958,20 +958,29 @@ University of Chicago Press.
 </p>
 
 <form
-class="comment-form">
 action="https://formspree.io/f/mwvzbrwn"
 method="POST"
 class="comment-form">
 
 <input
-type="email"
-name="email"
-required
-placeholder="Email" />
+type="hidden"
+name="_subject"
+value="Νέο σχόλιο στο άρθρο" />
+
+<input
+type="hidden"
+name="article"
+value="Η Δημοκρατία Γεννήθηκε για να Πεθάνει;" />
+
+<input
+type="text"
+name="name"
+placeholder="Όνομα" />
 
 <input
 type="email"
 name="email"
+required
 placeholder="Email" />
 
 <textarea
@@ -984,6 +993,7 @@ placeholder="Γράψτε το σχόλιό σας..."></textarea>
 Υποβολή σχολίου
 </button>
 
+</form>
 </form>
 
 </section>
